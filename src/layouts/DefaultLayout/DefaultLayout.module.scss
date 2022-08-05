@@ -7,7 +7,10 @@
 
 .container {
     width: var(--default-layout-width);
+    max-width: 100%;
     display: flex;
+    padding: 0px var(--default-interface-padding);
+    margin-top: 60px;
 }
 
 .content {
